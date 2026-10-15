@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f4f7a"/><stop offset=".55" stop-color="#e59a6b"/><stop offset="1" stop-color="#f6c98f"/></linearGradient>
+<linearGradient id="grass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5f7f45"/><stop offset="1" stop-color="#3f5a2e"/></linearGradient>
+<radialGradient id="sun" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff2c9"/><stop offset="1" stop-color="#fff2c9" stop-opacity="0"/></radialGradient>
+<g id="spk"><path d="M0 120 L-34 238 M0 120 L34 238 M0 120 V238" stroke="#1d1f24" stroke-width="5"/><rect x="-8" y="96" width="16" height="30" fill="#1d1f24"/><rect x="-36" y="0" width="72" height="104" rx="8" fill="#16181c"/><circle cx="0" cy="66" r="24" fill="#2c2f36"/><circle cx="0" cy="66" r="10" fill="#16181c"/><rect x="-14" y="14" width="28" height="14" rx="3" fill="#2c2f36"/></g>
+<g id="chair"><rect x="-22" y="0" width="44" height="40" rx="6" fill="#efe6d8"/><rect x="-22" y="34" width="44" height="8" fill="#d9ccb7"/><line x1="-18" y1="42" x2="-18" y2="70" stroke="#d9ccb7" stroke-width="4"/><line x1="18" y1="42" x2="18" y2="70" stroke="#d9ccb7" stroke-width="4"/></g>
+<g id="guestA"><circle cx="0" cy="-26" r="15" fill="#3b2a20"/><path d="M-24 22 C-24 -6 24 -6 24 22 Z" fill="#3c4a63"/></g>
+<g id="guestB"><circle cx="0" cy="-26" r="15" fill="#a8743f"/><path d="M-26 22 C-26 -8 26 -8 26 22 Z" fill="#b5577a"/></g>
+<g id="flower"><circle r="9" fill="#f7f1ea"/><circle r="4" fill="#f2d27a"/></g>
+<g id="rose"><circle r="8" fill="#e8a3b5"/><circle r="3.5" fill="#c8607e"/></g>
+</defs>
+<rect width="1000" height="560" fill="url(#sky)"/>
+<circle cx="520" cy="250" r="160" fill="url(#sun)"/>
+<path d="M0 270 C140 220 260 250 380 232 C520 210 640 250 760 228 C860 210 940 236 1000 226 V320 H0 Z" fill="#6c7790" opacity=".75"/>
+<path d="M0 300 C160 270 330 296 500 282 C680 268 820 296 1000 280 V340 H0 Z" fill="#4d6046"/>
+<g fill="#24341f"><path d="M70 300 C60 220 74 140 82 120 C92 140 104 220 94 300 Z"/><path d="M118 304 C110 240 120 180 128 162 C136 180 146 240 138 304 Z"/><path d="M880 300 C870 230 882 160 890 140 C900 160 910 230 902 300 Z"/><path d="M930 304 C922 250 932 196 940 180 C948 196 956 250 948 304 Z"/></g>
+<rect y="300" width="1000" height="260" fill="url(#grass)"/>
+<path d="M430 560 L470 330 L530 330 L570 560 Z" fill="#e9dfcf" opacity=".55"/>
+<!-- arch -->
+<g stroke="#e9e1d4" stroke-width="10" fill="none"><path d="M360 380 V170 a140 110 0 0 1 280 0 V380"/></g>
+<g>
+<use href="#flower" x="360" y="190"/><use href="#rose" x="372" y="170"/><use href="#flower" x="384" y="146"/><use href="#rose" x="405" y="120"/><use href="#flower" x="430" y="100"/><use href="#rose" x="456" y="86"/><use href="#flower" x="484" y="78"/>
+<use href="#flower" x="640" y="190"/><use href="#rose" x="628" y="170"/><use href="#flower" x="616" y="146"/><use href="#rose" x="595" y="120"/><use href="#flower" x="570" y="100"/><use href="#rose" x="544" y="86"/><use href="#flower" x="516" y="78"/>
+<use href="#rose" x="352" y="230"/><use href="#flower" x="362" y="262"/><use href="#rose" x="648" y="230"/><use href="#flower" x="638" y="262"/>
+</g>
+<g fill="#6f8f4f"><ellipse cx="368" cy="210" rx="16" ry="7"/><ellipse cx="396" cy="134" rx="14" ry="6" transform="rotate(-40 396 134)"/><ellipse cx="632" cy="210" rx="16" ry="7"/><ellipse cx="604" cy="134" rx="14" ry="6" transform="rotate(40 604 134)"/><ellipse cx="500" cy="74" rx="16" ry="6"/></g>
+<!-- speakers -->
+<use href="#spk" x="190" y="150"/>
+<use href="#spk" x="810" y="150"/>
+<g fill="none" stroke="#fff3df" stroke-width="3" opacity=".7"><path d="M236 200 a40 40 0 0 1 0 34"/><path d="M250 190 a56 56 0 0 1 0 54"/><path d="M764 200 a40 40 0 0 0 0 34"/><path d="M750 190 a56 56 0 0 0 0 54"/></g>
+<!-- officiant at lectern with mic on stand -->
+<g>
+<circle cx="430" cy="214" r="20" fill="#8a5a3b"/><path d="M412 206 a20 20 0 0 1 36 -6 c-6 -8 -30 -10 -36 6Z" fill="#3a2a22"/>
+<path d="M398 384 L404 262 C406 240 454 240 456 262 L462 384 Z" fill="#2b3a55"/>
+<path d="M420 246 L430 270 L440 246 Z" fill="#f4f1ec"/>
+<rect x="452" y="286" width="44" height="98" fill="#7a5a3e"/><rect x="446" y="278" width="56" height="12" rx="2" fill="#8d6b4c"/>
+<path d="M474 278 C474 250 470 236 456 226" stroke="#1d1f24" stroke-width="3" fill="none"/><rect x="446" y="220" width="14" height="9" rx="4" fill="#1d1f24" transform="rotate(-30 453 224)"/>
+</g>
+<!-- person 2 with handheld wireless mic -->
+<g>
+<circle cx="574" cy="218" r="19" fill="#c79268"/><path d="M552 214 c0 -26 46 -30 44 4 c-4 -12 -36 -16 -44 -4Z" fill="#6b4226"/><path d="M590 214 c10 8 10 40 2 52" stroke="#6b4226" stroke-width="10" fill="none"/>
+<path d="M538 384 L548 268 C552 244 598 244 602 268 L612 384 Z" fill="#f6f2ea"/>
+<path d="M552 270 C540 286 536 300 548 300 L556 296" fill="none" stroke="#f6f2ea" stroke-width="14" stroke-linecap="round"/>
+<circle cx="552" cy="292" r="7" fill="#c79268"/>
+<rect x="545" y="236" width="9" height="50" rx="3" fill="#1d1f24" transform="rotate(-14 549 261)"/><circle cx="555" cy="236" r="7" fill="#3a3f47"/>
+</g>
+<!-- small tech table with compact mixer -->
+<g><rect x="70" y="402" width="120" height="8" fill="#5a4636"/><line x1="80" y1="410" x2="80" y2="470" stroke="#5a4636" stroke-width="5"/><line x1="180" y1="410" x2="180" y2="470" stroke="#5a4636" stroke-width="5"/><path d="M92 402 L98 380 L160 380 L166 402 Z" fill="#23262c"/><g fill="#cfd4da"><circle cx="108" cy="388" r="2.5"/><circle cx="120" cy="388" r="2.5"/><circle cx="132" cy="388" r="2.5"/><circle cx="144" cy="388" r="2.5"/></g><g fill="#e04b4b"><circle cx="106" cy="396" r="2.5"/><circle cx="118" cy="396" r="2.5"/><circle cx="130" cy="396" r="2.5"/><circle cx="142" cy="396" r="2.5"/></g><rect x="168" y="388" width="14" height="14" rx="2" fill="#16181c"/><path d="M190 404 C230 420 260 400 300 420 C340 440 360 410 404 392" fill="none" stroke="#1d1f24" stroke-width="2" opacity=".6"/></g>
+<!-- chairs and guests -->
+<g>
+<use href="#chair" x="250" y="440"/><use href="#chair" x="320" y="440"/><use href="#chair" x="390" y="440"/>
+<use href="#chair" x="610" y="440"/><use href="#chair" x="680" y="440"/><use href="#chair" x="750" y="440"/>
+<use href="#guestA" x="250" y="446"/><use href="#guestB" x="320" y="446"/><use href="#guestA" x="390" y="446"/>
+<use href="#guestB" x="610" y="446"/><use href="#guestA" x="680" y="446"/><use href="#guestB" x="750" y="446"/>
+<use href="#chair" x="220" y="510"/><use href="#chair" x="300" y="510"/><use href="#chair" x="380" y="510"/>
+<use href="#chair" x="620" y="510"/><use href="#chair" x="700" y="510"/><use href="#chair" x="780" y="510"/>
+<use href="#guestB" x="220" y="516"/><use href="#guestA" x="300" y="516"/><use href="#guestB" x="380" y="516"/>
+<use href="#guestA" x="620" y="516"/><use href="#guestB" x="700" y="516"/><use href="#guestA" x="780" y="516"/>
+</g>
+</svg>
